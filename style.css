@@ -1,0 +1,144 @@
+/*poppins fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*inter fonts:- font-family: "Inter", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+}
+
+body{
+    /* max-width: 1440px; */
+}
+
+
+/*nav and header section*/
+#headerSection{
+    width: 1212px;
+    margin: 50px auto 100px;
+}
+.navContainer{
+    width: 1124px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+.navSearch{
+    display: flex;
+    align-items: center;
+}
+.navSearch input{
+    padding-left: 28px;
+    width: 508px;
+    height: 48px;
+    border-radius: 100px;
+    border: none;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.navSearch input[placeholder]{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+.navSearch i{
+    font-size: 20px;
+    color: #7B7B7B;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    margin-left: 470px;
+
+}
+.navSearch i:hover{
+    color: #FF297D;
+    cursor: pointer;
+}
+.navItem{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navItem li{
+    list-style: none;
+}
+.navItem li a{
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+
+
+/*Mi LED TV 4A PRO 32: section-1*/
+#headingBannerSection{
+    width: 1212px;
+    margin: 0 auto 100px;
+    background-color: #FEEAE9;
+    padding: 50px;
+    border-radius: 20px;
+}
+.contentSize{
+    width: 1124px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+}
+.textAndButtons{
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.textAndButtons h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.textAndButtons p{
+    font-size: 16px;
+    margin-right: 100px;
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+}
+.textAndButtons h2{
+    font-size: 41px;
+    margin-right: 100px;
+    font-family: "Inter", sans-serif;
+    color: #FF136F;
+}
+.headingButtons button{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-image:linear-gradient(to bottom, #FF589B, #FF136F);
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+.headingButtons button:hover{
+    cursor: pointer;
+}
+.headingButtons button i{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+.imageTV img{
+    width: 402px;
+}
